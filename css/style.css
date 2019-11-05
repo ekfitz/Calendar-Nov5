@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: none;
+  background-color: #171717;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.calendar {
+  position: absolute;
+  width: 90%;
+  height: 90vh;
+  top: 5vh;
+  left: 5%;
+  border-radius: 0.5em;
+}
+
+.days {
+  position: absolute;
+  width: 13.5%;
+  height: 19%;
+  background-color: blue;
+  border-radius: 0.5em;
+}
+
+.daytext {
+  position: absolute;
+  font-size: 5em;
+  color: white;
+}
